@@ -34,7 +34,7 @@ h2 {
     font-family: Nunito, sans-serif;
     letter-spacing: 5px;
     text-align: center;
-    color: #75003A;
+    color: #206139;
 }
 header {
     background-image: linear-gradient(to left, #285e55, #635a5e);
@@ -46,12 +46,12 @@ header {
 
     /* border-bottom: 5px solid #534e51; */
     border-bottom: 5px solid #534e51;
-    height: 100px;
+    height: 90px;
 }
 #logo {
     
     float: left;
-    text-align: left;
+    margin-left: 20px;
     font-size: 250%;
     line-height: 75px;
 }
@@ -86,7 +86,7 @@ header {
 
 .active {
 
-border-bottom: 2px solid #105807;
+border-bottom: 2px solid #ffffff;
 
 }
 
@@ -141,5 +141,21 @@ border-bottom: 2px solid #105807;
     position: absolute;
     top: 30%;
     background-color: rgba(69, 77, 75, 0.7);
+}
+#intro-text {
+    margin: 2rem;
+}
+
+#intro-text p {
+    line-height: 4rem;
+    text-align: justify;
+}
+
+#intro-text a {
+    color: #FF007F;
+}
+
+#intro-text a:hover {
+    color: #008873;
 }
 
