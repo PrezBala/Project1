@@ -18,7 +18,7 @@ body {
 
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #000000;
 }
 
 /* headings and logo */
@@ -27,7 +27,7 @@ h1 {
     font-family: Nunito, sans-serif;
     letter-spacing: 5px;
     text-align: center;
-    color: #008873;
+    color: #ffffff;
 }
 
 h2 {
@@ -36,7 +36,18 @@ h2 {
     text-align: center;
     color: #75003A;
 }
+header {
+    background-image: linear-gradient(to left, #285e55, #635a5e);
 
+    /* fallback color if gradient does not show up */
+
+    background-color: #534e51;
+    padding: 2px;
+
+    /* border-bottom: 5px solid #534e51; */
+    border-bottom: 5px solid #534e51;
+    height: 100px;
+}
 #logo {
     
     float: left;
@@ -86,7 +97,7 @@ border-bottom: 2px solid #105807;
     height: 400px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 
 }
@@ -100,7 +111,7 @@ border-bottom: 2px solid #105807;
     background-size: cover;
      /* animates zoom effect on loading page */
      animation-name: hero-image-zoom;
-     animation-duration: 5s;
+     animation-duration: 8s;
      animation-fill-mode: forwards;
  }
  
@@ -117,3 +128,18 @@ border-bottom: 2px solid #105807;
  
 
 }
+
+.hero-h1 {
+    color: white;
+    margin-bottom: 0;
+}
+
+#hero-overlay-text-box {
+    color: white;
+    letter-spacing: 5px;
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    background-color: rgba(69, 77, 75, 0.7);
+}
+
