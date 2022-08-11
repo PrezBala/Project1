@@ -109,6 +109,7 @@ border-bottom: 2px solid #ffffff;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
+    
      /* animates zoom effect on loading page */
      animation-name: hero-image-zoom;
      animation-duration: 8s;
@@ -159,3 +160,67 @@ border-bottom: 2px solid #ffffff;
     color: #008873;
 }
 
+/* MEDIA QUERIES SECTION */
+
+/* For medium screen sizes from 800px wide and below */
+@media screen and (max-width: 800px) {
+    header {
+        height: 144px;
+        padding: .6rem;
+    }
+
+    #hero-holder,
+    #hero-image {
+        height: 400px;
+    }
+
+    #hero-overlay-text-box {
+        padding: 1rem;
+    }
+
+    #menu-holder {
+        margin-left: 1rem;
+        margin-top: 7px;
+        clear: left;
+        float: left;
+        line-height: 10px;
+    }
+
+    #top-button {
+        padding: 0.9rem 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    nav li:hover {
+        background-color: #FF8AC4;
+    }
+
+}
+
+/* For smartphone screen sizes 600px and below */
+@media screen and (max-width: 600px) {
+
+    #hero-holder,
+    #hero-image {
+        height: 300px;
+    }
+
+    .hero-h1 {
+        font-size: 15px;
+       
+    }
+
+    #hero-overlay-text-box {
+        padding: 1rem;
+        position: absolute;
+        /* left: 15%; */
+        top: 30%;
+    }
+
+    #menu-holder {
+        margin-right: 1rem;
+    }
+
+    
+    
+}
