@@ -4,7 +4,7 @@
 * {
 
     margin: 0;
-    padding: 0;
+    padding: 0.5;
     border: none;
     
 
@@ -81,7 +81,7 @@ header {
 
 #menu a:hover {
 
-    border-bottom:2px solid #105807;
+    border-bottom:2px solid #ffffff;
 }
 
 .active {
@@ -99,6 +99,13 @@ border-bottom: 2px solid #ffffff;
     overflow: hidden;
 
     position: relative;
+
+
+}
+
+.radioactive img {
+    width: 45%;
+    /* fit-content; */
 
 }
 
@@ -130,35 +137,20 @@ border-bottom: 2px solid #ffffff;
 
 }
 
-.hero-h1 {
-    color: white;
-    margin-bottom: 0;
-}
 
 #hero-overlay-text-box {
+    
     color: white;
     letter-spacing: 5px;
     padding: 20px;
     position: absolute;
     top: 30%;
     background-color: rgba(69, 77, 75, 0.7);
-}
-#intro-text {
-    margin: 2rem;
+    animation:moveBanner 1s 0.5s forwards;
 }
 
-#intro-text p {
-    line-height: 4rem;
-    text-align: justify;
-}
 
-#intro-text a {
-    color: #FF007F;
-}
 
-#intro-text a:hover {
-    color: #008873;
-}
 
 /* MEDIA QUERIES SECTION */
 
@@ -206,7 +198,7 @@ border-bottom: 2px solid #ffffff;
     }
 
     .hero-h1 {
-        font-size: 15px;
+        font-size: 1px;
        
     }
 
@@ -221,6 +213,5 @@ border-bottom: 2px solid #ffffff;
         margin-right: 1rem;
     }
 
-    
     
 }
